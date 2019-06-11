@@ -1,0 +1,150 @@
+000-00:01:44.950 AUDIO  : kb2audio_keypressed()
+000-00:01:44.950 KBD_LOW: msg KEY DOWN sent: key = 78
+000-00:01:45.150 AUDIO  : kb2audio_keyreleased()
+000-00:01:45.150 KBD_LOW: msg KEY UP sent: key = 78
+000-00:01:45.150 KEYB   : key shortpress 78 [Call]       +Ue108 
+000-00:01:45.150 KEYB   : transpose K_Dial to K_Handsfree
+000-00:01:45.150 DISPLAY: hook: (0x1031) listbox
+000-00:01:45.150 DISPLAY: SK_min = 38, SK_max = 41, key_scan = 15
+000-00:01:45.150 DISPLAY: hook: (0x1051) textbox
+000-00:01:45.150 DISPLAY: hook: (0x1050) textbox
+000-00:01:45.150 DISPLAY: hook: (0x1030) telephonicbox
+000-00:01:45.150 DISPLAY: hook: (0x1001) framebox
+000-00:01:45.150 DISPLAY: hook: (0x0082) framebox
+000-00:01:45.150 UA3    : mtu 254
+ua3 : R 06 00 15 04 04 EE 84 83
+000-00:01:45.180 UA3    : ua3_in: length= 8
+ua3 : S 08 00 15 02 92 00 80 0F 01 00
+000-00:01:45.180 UA3    : ua3_in: length= 2
+ua3 : S 02 00 4F 00
+000-00:01:45.190 AUDIO  : ua2audio_ring()
+000-00:01:45.190 AUDIO  : sendRing()
+000-00:01:45.190 AUDIO  : rcvRing(): 
+000-00:01:45.190 AUDIO  : ring_processMsgStop
+000-00:01:45.190 AUDIO  : audiostate_getState() feature_id = 1 state = 3 
+000-00:01:45.190 AUDIO  : audiostate_getState() feature_id = 1 state = 3 
+000-00:01:45.190 AUDIO  : audiostate_find_feature_priority_Ls():
+000-00:01:45.190 UA3    : ua3_in: length= 4
+ua3 : S 04 00 29 13 12 E6
+000-00:01:45.190 AUDIO  : ua2audio_select_voice_mode()
+000-00:01:45.200 UA3    : audiodecode_noeVoiceMode : VM=13, RXG=18, TXG=-26
+000-00:01:45.200 AUDIO  : sendMainVoiceMode(): VM=13, RXG=18, TXG=-26
+000-00:01:45.200 AUDIO  : audiodriver_set(setting=7)
+000-00:01:45.200 AUDIO  : audiodriver_getActivity() returns 1
+000-00:01:45.200 AUDIO  : audiostate_setState() feature_id = 1 new state = 0 
+000-00:01:45.200 AUDIO  : audiostate_audiofeature_free_Ls()
+000-00:01:45.200 AUDIO  : audiostate_getState() feature_id = 2 state = 0 
+000-00:01:45.200 AUDIO  : voicemode_restartVm()
+000-00:01:45.200 AUDIO  :  audiostate_vmGetMode(): current vm = 0x10
+000-00:01:45.200 AUDIO  : processVmIdle()
+000-00:01:45.200 AUDIO  : audiostate_find_feature_priority_Ls():
+000-00:01:45.200 AUDIO  :  audiostate_vmSetMode(): previous vm = 0x10 new vm = 0x10
+000-00:01:45.200 AUDIO  :  audiosignal_set_audiocom: state=0
+000-00:01:45.200 UA3    : ua3_in: length= 33
+000-00:01:45.210 UA3    : ua n3:elt of super msg type2: length= 9, remainingLength= 32
+ua3 : S 09 00 15 02 97 10 32 36 02 81 F8
+000-00:01:45.210 UA3    : ua n3:elt of super msg type2: length= 8, remainingLength= 21
+ua3 : S 08 00 15 02 08 89 00 02 81 F8
+000-00:01:45.210 UA3    : ua n3:elt of super msg type2: length= 9, remainingLength= 11
+ua3 : S 09 00 15 02 97 10 32 36 02 81 F8
+000-00:01:45.210 UA3    : ua3_in: length= 8
+ua3 : S 08 00 15 02 92 00 80 0F 01 00
+000-00:01:45.210 AUDIO  : audiostate_setState() feature_id = 4 new state = 0 
+000-00:01:45.210 AUDIO  : codecVm_Idle()
+000-00:01:45.210 AUDIO  : codecst_vmIdle()
+000-00:01:45.210 NOEP   : ######## END     1   30ms
+000-00:01:45.220 UA3    : ua3_in: length= 8
+ua3 : S 08 00 15 02 80 10 10 28 01 00
+000-00:01:45.220 DISPLAY: framebox_set_property()
+000-00:01:45.230 AUDIO  : codecMute()  = 0
+000-00:01:45.230 AUDIO  : codecst_mute()  = 0
+000-00:01:45.230 AUDIO  : audiocodec_coproSetClock(0)
+000-00:01:45.230 AUDIO  :  audiostate_secondaryRunning() returns : 0
+000-00:01:45.230 AUDIO  : codecLs() 0
+000-00:01:45.230 UA3    : ua3_in: length= 30
+000-00:01:45.230 UA3    : ua n3:elt of super msg type2: length= 6, remainingLength= 29
+ua3 : S 06 00 15 02 06 6E 01 01
+000-00:01:45.230 UA3    : ua n3:elt of super msg type2: length= 19, remainingLength= 21
+ua3 : S 13 00 15 02 84 10 51 2F 01 00 37 09 E9 80 9A E8 AF 9D E4 B8 AD
+000-00:01:45.230 AUDIO  : codecst_ls() 0
+000-00:01:45.230 DISPLAY: textbox_set_property()
+000-00:01:45.240 UA3    : ua3_in: length= 51
+ua3 : S 33 00 15 02 82 10 31 08 01 02 4F 01 00 4E 01 05 30 01 01 8A 00 0C E6 96 B0 E7 9A 84 E5 91 BC E5 8F AB 89 00 02 00 00 8A 01 06 E4 BF 9D E6 8C 81 89 01 02 00 00
+000-00:01:45.250 AUDIO  : audiodriver_setActivity(0)
+000-00:01:45.250 AUDIO  : audiocodec_setPower(0)
+000-00:01:45.250 AUDIO  : codecDown()
+000-00:01:45.250 AUDIO  : codecst_down()
+000-00:01:45.250 AUDIO  : audiodriver_set(setting=16)
+000-00:01:45.250 AUDIO  : audiodriver_getActivity() returns 0
+000-00:01:45.250 UA3    : ua3_in: length= 7
+ua3 : S 07 00 15 02 05 86 00 01 01
+000-00:01:45.250 AUDIO  : rcvMainVm(): VM=13, RXG=18, TXG=-26
+000-00:01:45.250 AUDIO  : audiostate_getState() feature_id = 0 state = 0 
+000-00:01:45.250 AUDIO  : audiostate_updateDeviceConfiguration()
+000-00:01:45.250 AUDIO  : audiostate_getState() feature_id = 2 state = 0 
+000-00:01:45.250 AUDIO  : processVmHandsfree(): RXG=9, TXG=-13
+000-00:01:45.250 AUDIO  : audiostate_secondaryEffectiveRunning() returns : 0
+000-00:01:45.250 AUDIO  : audiostate_aecEffectiveRunning() returns : 0
+000-00:01:45.260 AUDIO  :  audiostate_vmSetMode(): previous vm = 0x10 new vm = 0x13
+000-00:01:45.260 AUDIO  :  audiosignal_set_audiocom: state=0
+000-00:01:45.260 AUDIO  : audiocodec_idle()
+000-00:01:45.260 UA3    : ua3_in: length= 11
+ua3 : S 0B 00 15 02 05 86 05 01 00 87 05 01 00
+000-00:01:45.260 AUDIO  : codecst_idle()
+000-00:01:45.240 NOEP   : listbox_set_property()
+000-00:01:45.260 NOEP   : listbox set property count[  0] code:  8
+000-00:01:45.260 NOEP   : listbox set property start[  0] code: 79
+000-00:01:45.260 NOEP   : NEW NGWP_ALC_LIST_THEORICAL_IDX=0
+000-00:01:45.260 NOEP   : listbox set property realcount[  0] code: 78
+000-00:01:45.260 NOEP   : NEW NGWP_ALC_LIST_THEORICAL_LENGTH=3
+000-00:01:45.260 NOEP   : listbox set property showevent[  0] code: 48
+000-00:01:45.260 NOEP   : listbox set property label[  0] code:138
+000-00:01:45.270 NOEP   : Modification d'un item de la liste: index=0, value=新的呼叫, icon_num=0
+000-00:01:45.270 NOEP   : listbox set property icon[  0] code:137
+000-00:01:45.270 NOEP   : Modification d'un item de la liste: index=0, value=新的呼叫, icon_num=0
+000-00:01:45.270 NOEP   : listbox set property label[  1] code:138
+000-00:01:45.270 NOEP   : Modification d'un item de la liste: index=1, value=保持, icon_num=0
+000-00:01:45.280 AUDIO  :  ls_level_Rlr_to_3G() : lsvol_3G = 7
+000-00:01:45.280 AUDIO  : audiostate_saveLsLevels() feature_id = 4 target RLR = 9 dB
+000-00:01:45.280 AUDIO  : audiostate_secondaryEffectiveRunning() returns : 0
+000-00:01:45.280 AUDIO  : audiostate_setState() feature_id = 4 new state = 3 
+000-00:01:45.280 AUDIO  : audiostate_vmModeModified() returns 1 
+000-00:01:45.280 AUDIO  : audiostate_secondaryEffectiveRunning() returns : 0
+000-00:01:45.280 AUDIO  : audiodriver_set(setting=16)
+000-00:01:45.280 AUDIO  : audiodriver_getActivity() returns 0
+000-00:01:45.280 AUDIO  : audiocodec_setPower(1)
+000-00:01:45.280 AUDIO  : codecReset()
+000-00:01:45.280 AUDIO  : codecst_reset()
+000-00:01:45.270 NOEP   : listbox set property icon[  1] code:137
+000-00:01:45.280 NOEP   : Modification d'un item de la liste: index=1, value=保持, icon_num=0
+000-00:01:45.300 AUDIO  : level_setMic3Slr(value_in_db=-13)
+000-00:01:45.300 AUDIO  : gain_setMic(value_in_db=21)
+000-00:01:45.300 AUDIO  :  mic_level_Slr_to_3G : micvol_3G = 0
+000-00:01:45.300 AUDIO  : codecHandsfree()
+000-00:01:45.300 AUDIO  : codecst_handsfree()
+000-00:01:45.310 NOEP   : ######## END    10  100ms
+000-00:01:45.320 AUDIO  : audiocodec_coproSetClock(1)
+000-00:01:45.320 AUDIO  : audiodriver_set(setting=4)
+000-00:01:45.320 AUDIO  : audiodriver_setActivity(1)
+000-00:01:45.320 AUDIO  :  audiocommon_set_targetLsRlr()
+000-00:01:45.320 AUDIO  : audiostate_find_feature_priority_Ls():
+000-00:01:45.320 AUDIO  : audiostate_secondaryEffectiveRunning() returns : 0
+000-00:01:45.320 AUDIO  : audiostate_aecEffectiveRunning() returns : 1
+000-00:01:45.320 AUDIO  : audiostate_secondaryEffectiveRunning() returns : 0
+000-00:01:45.320 AUDIO  : audiostate_aecEffectiveRunning() returns : 1
+000-00:01:45.320 AUDIO  : gain_setLs(value_in_db=3)
+000-00:01:45.320 AUDIO  : gainst_setLs(value_in_db=3)
+000-00:01:45.320 AUDIO  : gainst_setLs() : spkgain = 0xa
+000-00:01:45.330 AUDIO  :  level_setLsRlr lsRlr = 9 lsAttr = 10 lsTarget = 3
+000-00:01:45.330 AUDIO  : audiostate_secondaryEffectiveRunning() returns : 0
+000-00:01:45.390 DISPLAY: img_type 1
+000-00:01:45.390 DISPLAY: img_flags 8192
+000-00:01:45.390 DISPLAY: img_size.w 12
+000-00:01:45.390 DISPLAY: img_size.h 11
+000-00:01:45.390 DISPLAY: img_trans 0
+000-00:01:45.390 DISPLAY: img_ncolors 2
+000-00:01:45.390 DISPLAY: img_bpl 4
+000-00:01:50.500 UA3    : ua3_in: length= 1
+ua3 : S 01 00 AB
+000-00:01:50.510 UA3    : mtu 254
+ua3 : R 02 00 A2 00

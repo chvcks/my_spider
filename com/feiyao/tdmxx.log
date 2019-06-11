@@ -1,0 +1,208 @@
+002-17:20:54.910 UA3    : ua3_in: length= 1
+ua3 : S 01 00 2B
+002-17:20:54.910 UA3    : mtu 254
+ua3 : R 02 00 22 00
+002-17:20:55.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:20:55.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:20:56.770 AUDIO  : kb2audio_keypressed()
+002-17:20:56.770 KBD_LOW: msg KEY DOWN sent: key = 36
+002-17:20:57.010 AUDIO  : kb2audio_keyreleased()
+002-17:20:57.010 KBD_LOW: msg KEY UP sent: key = 36
+002-17:20:57.010 KEYB   : key shortpress 36 [Soft_2]     +Ue132 
+002-17:20:57.010 KEYB   : KB.prefixChar = U+0000
+002-17:20:57.010 KEYB   : Testing if character U+E132 is a prefix
+002-17:20:57.010 KEYB   : --> it is NO prefix...
+002-17:20:57.010 DISPLAY: hook: (0x2a20) listbox
+002-17:20:57.010 DISPLAY: SK_min = 36, SK_max = 41, key_scan = 36
+002-17:20:57.010 DISPLAY: NGWP_ALC_LIST_FOCUSED_IDX = 0
+002-17:20:57.010 DISPLAY: NGWP_LIST_SELECT_FOLLOW_FOCUS = 0
+002-17:20:57.010 UA3    : mtu 254
+ua3 : R 08 00 15 04 81 2A 20 2B 01 00
+002-17:20:57.020 DISPLAY: listbox: EVT_LISTBOX(index=0, value=[])
+002-17:20:57.040 UA3    : ua3_in: length= 84
+002-17:20:57.040 UA3    : ua n3:elt of super msg type: length= 15, remainingLength= 83
+ua3 : S 0F 00 15 02 99 2A 00 37 08 4D 79 20 70 68 6F 6E 65
+002-17:20:57.040 UA3    : ua n3:elt of super msg type: length= 66, remainingLength= 67
+ua3 : S 42 00 15 02 82 2A 20 4E 01 07 8A 00 0B 4B 65 79 20 70 72 6F 67 72 61 6D 85 00 00 8A 01 08 4C 61 6E 67 75 61 67 65 85 01 00 8A 02 07 52 69 6E 67 69 6E 67 85 02 00 8A 03 08 50 61 73 73 77 6F 72 64 85 03 00
+002-17:20:57.050 DISPLAY: headerbox_set_property()
+002-17:20:57.050 NOEP   : read_properties UTF8 lng=0
+002-17:20:57.050 NOEP   : read_properties UTF8 lng=0
+002-17:20:57.050 NOEP   : read_properties UTF8 lng=0
+002-17:20:57.050 NOEP   : read_properties UTF8 lng=0
+002-17:20:57.060 NOEP   : listbox_set_property()
+002-17:20:57.060 NOEP   : listbox set property realcount[  0] code: 78
+002-17:20:57.060 NOEP   : NEW NGWP_ALC_LIST_THEORICAL_LENGTH=4
+002-17:20:57.060 NOEP   : listbox set property label[  0] code:138
+002-17:20:57.060 NOEP   : Modification d'un item de la liste: index=0, value=Key program, icon_num=0
+002-17:20:57.060 NOEP   : listbox set property value[  0] code:133
+002-17:20:57.060 NOEP   : listbox set property label[  1] code:138
+002-17:20:57.060 NOEP   : Modification d'un item de la liste: index=1, value=Language, icon_num=0
+002-17:20:57.070 NOEP   : listbox set property value[  1] code:133
+002-17:20:57.070 NOEP   : listbox set property label[  2] code:138
+002-17:20:57.070 NOEP   : Modification d'un item de la liste: index=2, value=Ringing, icon_num=0
+002-17:20:57.070 NOEP   : listbox set property value[  2] code:133
+002-17:20:57.070 NOEP   : listbox set property label[  3] code:138
+002-17:20:57.070 NOEP   : Modification d'un item de la liste: index=3, value=Password, icon_num=0
+002-17:20:57.080 NOEP   : listbox set property value[  3] code:133
+002-17:20:57.100 NOEP   : ######## END     2   50ms
+002-17:21:00.200 AUDIO  : kb2audio_keypressed()
+002-17:21:00.200 KBD_LOW: msg KEY DOWN sent: key = 25
+002-17:21:00.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:00.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:00.420 AUDIO  : kb2audio_keyreleased()
+002-17:21:00.420 KBD_LOW: msg KEY UP sent: key = 25
+002-17:21:00.420 KEYB   : key shortpress 25 [Home]       +Ue115 
+002-17:21:00.420 KEYB   : KB.prefixChar = U+0000
+002-17:21:00.420 KEYB   : Testing if character U+E115 is a prefix
+002-17:21:00.420 KEYB   : --> it is NO prefix...
+002-17:21:00.420 DISPLAY: hook: (0x2a20) listbox
+002-17:21:00.420 DISPLAY: SK_min = 36, SK_max = 41, key_scan = 25
+002-17:21:00.420 DISPLAY: hook: (0x2a10) framebox
+002-17:21:00.420 DISPLAY: hook: (0x2a00) headerbox
+002-17:21:00.420 DISPLAY: hook: (0x1100) framebox
+002-17:21:00.430 DISPLAY: hook: (0x1020) framebox
+002-17:21:00.430 DISPLAY: hook: (0x1010) framebox
+002-17:21:00.430 DISPLAY: hook: (0x0082) framebox
+002-17:21:00.430 UA3    : mtu 254
+ua3 : R 06 00 15 04 04 EE 84 95
+002-17:21:00.450 UA3    : ua3_in: length= 73
+002-17:21:00.450 UA3    : ua n3:elt of super msg type: length= 15, remainingLength= 72
+ua3 : S 0F 00 15 02 99 2A 00 37 08 53 65 74 74 69 6E 67 73
+002-17:21:00.450 UA3    : ua n3:elt of super msg type: length= 55, remainingLength= 56
+ua3 : S 37 00 15 02 82 2A 20 4E 01 04 8A 00 05 50 68 6F 6E 65 85 00 00 8A 01 0B 4D 79 20 73 65 72 76 69 63 65 73 85 01 00 8A 02 07 4F 70 74 69 6F 6E 73 85 02 00 8A 03 00 85 03 00
+002-17:21:00.460 DISPLAY: headerbox_set_property()
+002-17:21:00.460 NOEP   : read_properties UTF8 lng=0
+002-17:21:00.460 NOEP   : read_properties UTF8 lng=0
+002-17:21:00.470 NOEP   : read_properties UTF8 lng=0
+002-17:21:00.470 NOEP   : read_properties UTF8 lng=0
+002-17:21:00.470 NOEP   : read_properties UTF8 lng=0
+002-17:21:00.470 NOEP   : listbox_set_property()
+002-17:21:00.470 NOEP   : listbox set property realcount[  0] code: 78
+002-17:21:00.470 NOEP   : NEW NGWP_ALC_LIST_THEORICAL_LENGTH=2
+002-17:21:00.470 NOEP   : listbox set property label[  0] code:138
+002-17:21:00.470 NOEP   : Modification d'un item de la liste: index=0, value=Phone, icon_num=0
+002-17:21:00.470 NOEP   : listbox set property value[  0] code:133
+002-17:21:00.470 NOEP   : listbox set property label[  1] code:138
+002-17:21:00.480 NOEP   : Modification d'un item de la liste: index=1, value=My services, icon_num=0
+002-17:21:00.480 NOEP   : listbox set property value[  1] code:133
+002-17:21:00.480 NOEP   : listbox set property label[  2] code:138
+002-17:21:00.480 NOEP   : Modification d'un item de la liste: index=2, value=Options, icon_num=0
+002-17:21:00.480 NOEP   : listbox set property value[  2] code:133
+002-17:21:00.490 NOEP   : listbox set property label[  3] code:138
+002-17:21:00.490 NOEP   : Modification d'un item de la liste: index=3, value=, icon_num=0
+002-17:21:00.490 NOEP   : listbox set property value[  3] code:133
+002-17:21:00.510 NOEP   : ######## END     2   50ms
+002-17:21:02.870 AUDIO  : kb2audio_keypressed()
+002-17:21:02.870 KBD_LOW: msg KEY DOWN sent: key = 38
+002-17:21:03.050 AUDIO  : kb2audio_keyreleased()
+002-17:21:03.050 KBD_LOW: msg KEY UP sent: key = 38
+002-17:21:03.050 KEYB   : key shortpress 38 [Soft_4]     +Ue134 
+002-17:21:03.050 KEYB   : KB.prefixChar = U+0000
+002-17:21:03.050 KEYB   : Testing if character U+E134 is a prefix
+002-17:21:03.050 KEYB   : --> it is NO prefix...
+002-17:21:03.050 DISPLAY: hook: (0x2a20) listbox
+002-17:21:03.050 DISPLAY: SK_min = 36, SK_max = 41, key_scan = 38
+002-17:21:03.050 DISPLAY: NGWP_ALC_LIST_FOCUSED_IDX = 2
+002-17:21:03.050 DISPLAY: NGWP_LIST_SELECT_FOLLOW_FOCUS = 0
+002-17:21:03.050 UA3    : mtu 254
+ua3 : R 08 00 15 04 81 2A 20 2B 01 02
+002-17:21:03.060 DISPLAY: listbox: EVT_LISTBOX(index=2, value=[])
+002-17:21:03.070 UA3    : ua3_in: length= 63
+002-17:21:03.080 UA3    : ua n3:elt of super msg type: length= 20, remainingLength= 62
+ua3 : S 14 00 15 02 99 2A 00 37 0D 4D 79 20 70 61 72 61 6D 65 74 65 72 73
+002-17:21:03.080 UA3    : ua n3:elt of super msg type: length= 40, remainingLength= 41
+ua3 : S 28 00 15 02 82 2A 20 8A 00 07 56 65 72 73 69 6F 6E 85 00 00 8A 01 0A 50 68 6F 6E 65 20 74 65 73 74 85 01 00 8A 02 00 85 02 00
+002-17:21:03.080 DISPLAY: headerbox_set_property()
+002-17:21:03.090 NOEP   : read_properties UTF8 lng=0
+002-17:21:03.090 NOEP   : read_properties UTF8 lng=0
+002-17:21:03.090 NOEP   : read_properties UTF8 lng=0
+002-17:21:03.090 NOEP   : read_properties UTF8 lng=0
+002-17:21:03.090 NOEP   : listbox_set_property()
+002-17:21:03.090 NOEP   : listbox set property label[  0] code:138
+002-17:21:03.090 NOEP   : Modification d'un item de la liste: index=0, value=Version, icon_num=0
+002-17:21:03.100 NOEP   : listbox set property value[  0] code:133
+002-17:21:03.100 NOEP   : listbox set property label[  1] code:138
+002-17:21:03.100 NOEP   : Modification d'un item de la liste: index=1, value=Phone test, icon_num=0
+002-17:21:03.100 NOEP   : listbox set property value[  1] code:133
+002-17:21:03.100 NOEP   : listbox set property label[  2] code:138
+002-17:21:03.100 NOEP   : Modification d'un item de la liste: index=2, value=, icon_num=0
+002-17:21:03.100 NOEP   : listbox set property value[  2] code:133
+002-17:21:03.130 NOEP   : ######## END     2   50ms
+002-17:21:04.700 AUDIO  : kb2audio_keypressed()
+002-17:21:04.700 KBD_LOW: msg KEY DOWN sent: key = 36
+002-17:21:04.900 AUDIO  : kb2audio_keyreleased()
+002-17:21:04.900 KBD_LOW: msg KEY UP sent: key = 36
+002-17:21:04.900 KEYB   : key shortpress 36 [Soft_2]     +Ue132 
+002-17:21:04.900 KEYB   : KB.prefixChar = U+0000
+002-17:21:04.900 KEYB   : Testing if character U+E132 is a prefix
+002-17:21:04.900 KEYB   : --> it is NO prefix...
+002-17:21:04.900 DISPLAY: hook: (0x2a20) listbox
+002-17:21:04.900 DISPLAY: SK_min = 36, SK_max = 41, key_scan = 36
+002-17:21:04.900 DISPLAY: NGWP_ALC_LIST_FOCUSED_IDX = 0
+002-17:21:04.900 DISPLAY: NGWP_LIST_SELECT_FOLLOW_FOCUS = 0
+002-17:21:04.900 UA3    : mtu 254
+ua3 : R 08 00 15 04 81 2A 20 2B 01 00
+002-17:21:04.910 DISPLAY: listbox: EVT_LISTBOX(index=0, value=[])
+002-17:21:04.940 UA3    : ua3_in: length= 169
+002-17:21:04.940 UA3    : ua n3:elt of super msg type: length= 5, remainingLength= 168
+ua3 : S 05 00 15 01 99 2A 00
+002-17:21:04.940 UA3    : ua n3:elt of super msg type: length= 18, remainingLength= 162
+ua3 : S 12 00 15 00 99 2A 00 24 02 11 00 37 07 56 65 72 73 69 6F 6E
+002-17:21:04.940 UA3    : ua n3:elt of super msg type: length= 12, remainingLength= 143
+ua3 : S 0C 00 15 00 80 2A 10 24 02 2A 00 29 01 05
+002-17:21:04.950 UA3    : ua n3:elt of super msg type: length= 129, remainingLength= 130
+ua3 : S 81 00 15 00 82 2A 20 24 02 2A 10 25 01 01 2F 01 00 29 01 06 30 01 01 08 01 08 4E 01 08 8A 00 08 56 65 72 73 69 6F 6E 3A 8A 01 06 34 2E 31 30 2E 38 8A 02 05 44 61 74 61 3A 8A 03 06 34 2E 31 30 2E 38 8A 04 0F 43 75 73 74 6F 6D 69 7A 61 74 69 6F 6E 20 3A 8A 05 0D 63 61 69 78 61 2D 34 2E 30 30 2E 30 39 8A 06 0E 4C 6F 63 61 6C 69 7A 61 74 69 6F 6E 20 3A 8A 07 0B 63 68 69 2D 32 2E 30 31 2E 30 31
+002-17:21:04.960 NOEP   : listbox_delete() OK
+002-17:21:04.970 DISPLAY: framebox_delete() OK
+002-17:21:04.970 DISPLAY: headerbox_delete() OK
+002-17:21:04.970 DISPLAY: oid:1100 parent of oid:2a00 has border 10
+N= 0 S= 0 W= 0 E= 0
+002-17:21:04.970 DISPLAY: size: w=128 h=56, position x=0 y=0
+002-17:21:04.980 DISPLAY: headerbox_create() OK
+002-17:21:04.980 DISPLAY: oid = 0x2a10 border = 5
+002-17:21:04.980 DISPLAY: oid:2a00 parent of oid:2a10 has border 10
+N= 0 S= 0 W= 0 E= 0
+002-17:21:04.980 DISPLAY: child of tabbox, telbox, headbox, abs_y=0
+002-17:21:04.980 DISPLAY: size: w=128 h=38, position x=0 y=18
+002-17:21:04.980 DISPLAY: framebox_create() OK
+002-17:21:04.990 DISPLAY: oid:2a10 parent of oid:2a20 has border 5
+N= 0 S= 0 W= 0 E= 0
+002-17:21:04.990 DISPLAY: size: w=128 h=38, position x=0 y=0
+002-17:21:04.990 NOEP   : disp_list_insert_item_at(idx=-1, text="Version:", icon=no (0)
+002-17:21:05.000 NOEP   : ++++label[0] = (Version:, 0) -> label ID 00025b38
+002-17:21:05.000 NOEP   : disp_list_insert_item_at(idx=-1, text="4.10.8", icon=no (0)
+002-17:21:05.000 NOEP   : ++++label[1] = (4.10.8, 0) -> label ID 00025e38
+002-17:21:05.010 NOEP   : disp_list_insert_item_at(idx=-1, text="Data:", icon=no (0)
+002-17:21:05.010 NOEP   : ++++label[2] = (Data:, 0) -> label ID 00026048
+002-17:21:05.010 NOEP   : disp_list_insert_item_at(idx=-1, text="4.10.8", icon=no (0)
+002-17:21:05.020 NOEP   : ++++label[3] = (4.10.8, 0) -> label ID 00026258
+002-17:21:05.020 NOEP   : disp_list_insert_item_at(idx=-1, text="Customization :", icon=no (0)
+002-17:21:05.020 NOEP   : ++++label[4] = (Customization :, 0) -> label ID 00026538
+002-17:21:05.030 NOEP   : disp_list_insert_item_at(idx=-1, text="caixa-4.00.09", icon=no (0)
+002-17:21:05.030 NOEP   : ++++label[5] = (caixa-4.00.09, 0) -> label ID 000266f8
+002-17:21:05.030 NOEP   : disp_list_insert_item_at(idx=-1, text="Localization :", icon=no (0)
+002-17:21:05.040 NOEP   : ++++label[6] = (Localization :, 0) -> label ID 00026908
+002-17:21:05.040 NOEP   : disp_list_insert_item_at(idx=-1, text="chi-2.01.01", icon=no (0)
+002-17:21:05.050 NOEP   : ++++label[7] = (chi-2.01.01, 0) -> label ID 00026468
+002-17:21:05.050 NOEP   : listbox_create() OK
+002-17:21:05.070 NOEP   : ######## END     4  110ms
+002-17:21:05.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:05.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:10.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:10.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:10.910 UA3    : ua3_in: length= 1
+ua3 : S 01 00 2B
+002-17:21:10.910 UA3    : mtu 254
+ua3 : R 02 00 22 00
+002-17:21:15.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:15.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:16.920 UA3    : ua3_in: length= 1
+ua3 : S 01 00 2B
+002-17:21:16.920 UA3    : mtu 254
+ua3 : R 02 00 22 00
+002-17:21:20.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:20.230 KBD_LOW: there is 0 extkbd keys in pressed state
+002-17:21:22.930 UA3    : ua3_in: length= 1
+ua3 : S 01 00 2B
+002-17:21:22.930 UA3    : mtu 254
+ua3 : R 02 00 22 00

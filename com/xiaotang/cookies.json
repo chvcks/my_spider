@@ -1,0 +1,119 @@
+{
+ "cookieManagerVersion": "1.4",
+ "userAgent": "Mozilla/5.0 (Windows NT 6.1; WOW64; rv:61.0) Gecko/20100101 Firefox/61.0",
+ "cookies": [
+ {
+  "name": "i18n_deflut",
+  "value": "zh_CN",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/",
+  "secure": false,
+  "httpOnly": false,
+  "session": false,
+  "expirationDate": 1564801111,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ },
+ {
+  "name": "usernameTemp",
+  "value": "shilong.han@shilong.han@alcatel-lucent.com",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/",
+  "secure": false,
+  "httpOnly": false,
+  "session": true,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ },
+ {
+  "name": "passwordTemp",
+  "value": "24093913",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/",
+  "secure": false,
+  "httpOnly": false,
+  "session": true,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ },
+ {
+  "name": "JSESSIONID",
+  "value": "2C87CADD9D1470FF05669DE0632E7405",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/",
+  "secure": false,
+  "httpOnly": false,
+  "session": true,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ },
+ {
+  "name": "qrParam",
+  "value": "",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/",
+  "secure": false,
+  "httpOnly": false,
+  "session": false,
+  "expirationDate": 2139021798,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ },
+ {
+  "name": "signAddress",
+  "value": "",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/",
+  "secure": false,
+  "httpOnly": false,
+  "session": false,
+  "expirationDate": 2139021798,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ },
+ {
+  "name": "empSuffix",
+  "value": "",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/",
+  "secure": false,
+  "httpOnly": false,
+  "session": false,
+  "expirationDate": 2139021798,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ },
+ {
+  "name": "companyName",
+  "value": "ALE+China",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/",
+  "secure": false,
+  "httpOnly": false,
+  "session": false,
+  "expirationDate": 2139021798,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ },
+ {
+  "name": "JSESSIONID",
+  "value": "9D492CCF1B43A2C0D3915ABD624DB7B5",
+  "domain": "www.walkiemate.com",
+  "hostOnly": true,
+  "path": "/hr_communication",
+  "secure": true,
+  "httpOnly": false,
+  "session": true,
+  "storeId": "firefox-default",
+  "firstPartyDomain": ""
+ }
+]
+}
