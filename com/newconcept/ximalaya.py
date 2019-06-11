@@ -32,7 +32,7 @@ class XMLY(object):
 
         self.myproxy = {'http':"192.168.255.49:8080", 'https':"192.168.255.49:8080"}
 
-    def parse_download(self,url, parent_id, id):
+    def parse_download(self,saved_floder, url, parent_id, id):
 
         try:
 
@@ -57,20 +57,20 @@ class XMLY(object):
             download_src=d2['src']
             print(title)
             print(download_src)
-            wget.download(d2['src'], '1A\\'+d2['title']+'.m4a')
+            wget.download(d2['src'], '{}\\'.format(saved_floder)+d2['title']+'.m4a')
 
         except Exception as e:
             logging.error("解析错误", exc_info=True)
 
 
-    def download(self, parent_id, start_id, end_id):
+    def download(self, saved_floder, parent_id, start_id, end_id):
 
         try:
 
             for id in range(int(start_id), int(end_id)):
                 myurl = self.myurl.format(parent_id, id)
 
-                self.parse_download(myurl, parent_id, id)
+                self.parse_download(saved_floder, myurl, parent_id, id)
 
                 sleeper = random.randint(2, 3)
                 time.sleep(sleeper)
@@ -81,9 +81,25 @@ class XMLY(object):
 if __name__=="__main__":
     xmly = XMLY()
 
-    parent_id = "14082645"      #1A
+    '''
+    saved_floder = "1A"
+    parent_id = "14082645"      
     start_id = "75440136"
     end_id = "75440527"
+    '''
 
 
-    xmly.download(parent_id, start_id, end_id)
+    saved_floder = "1B"
+    parent_id = "14082705"
+    start_id = "75441030"
+    end_id = "75441231"
+
+    '''
+    saved_floder = "2A"
+    parent_id = "14081502"
+    start_id = "75432326"
+    end_id = "75432455"
+    '''
+
+
+    xmly.download(saved_floder, parent_id, start_id, end_id)
